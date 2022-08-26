@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.2">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="ffbf8664-b9f4-483d-8a34-fc85176e395c"
+			name="Setup_TC_LOGIN_001">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="ffbf8664-b9f4-483d-8a34-fc85176e395c"
+			name="Setup_TC_LOGIN_001">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

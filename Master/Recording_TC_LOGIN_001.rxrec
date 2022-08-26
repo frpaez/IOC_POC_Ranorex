@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="51432f7f-52c7-44b1-b6d4-3bf5850702d6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording_TC_LOGIN_001"
+	namespace="Master">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="3f32627d-770d-40d8-8be5-180c40daba42"
+	name="NewRepository">
+		<codegen
+		classname="NewRepository"
+		namespace="MyTestProject">
+		</codegen>
+		<rootfolder
+		capname="host"
+		id="8b295ce9-db58-474e-a148-3a407eaa72fc"
+		isrooted="True"
+		name="Root"
+		searchtimeout="0ms"
+		usecache="False">
+			<basepath>
+			</basepath>
+		</rootfolder>
+		<variables>
+		</variables>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording_TC_LOGIN_001.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
