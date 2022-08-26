@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b3a0c075-b839-4f1d-bdc5-24fc6d775bb7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="IOC_POC_Ranorex">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="51585f09-cb5c-4da7-a990-598f1711dc49"
+	name="IOC_POC_RanorexRepository"
+	relativepath="IOC_POC_RanorexRepository.rxrep">
+		<codegen
+		classname="IOC_POC_RanorexRepository"
+		namespace="IOC_POC_Ranorex">
+		</codegen>
+		<rootfolder
+		id="f98c6c43-3031-4928-b8df-9e860408dece"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
