@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="11c38616-ccd7-4c74-9821-40d4ba9a2ab8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="IOC_POC_Ranorex">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="8f3ec0bd-f4f1-40ea-8b83-e51e51c8a618">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ffe7712e-9506-4076-87f4-3e232e3457f0"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='MicrosoftEdge']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="51585f09-cb5c-4da7-a990-598f1711dc49"
+	name="IOC_POC_RanorexRepository"
+	relativepath="IOC_POC_RanorexRepository.rxrep">
+		<codegen
+		classname="IOC_POC_RanorexRepository"
+		namespace="IOC_POC_Ranorex">
+		</codegen>
+		<rootfolder
+		id="f98c6c43-3031-4928-b8df-9e860408dece"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

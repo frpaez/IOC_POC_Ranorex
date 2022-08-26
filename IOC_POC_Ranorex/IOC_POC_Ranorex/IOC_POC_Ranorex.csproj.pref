@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="IOC_POC_Ranorex.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="IOC_POC_Ranorex.rxtst" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

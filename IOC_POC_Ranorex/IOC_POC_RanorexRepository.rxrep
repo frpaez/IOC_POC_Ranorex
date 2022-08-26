@@ -1,0 +1,284 @@
+﻿<repository
+id="51585f09-cb5c-4da7-a990-598f1711dc49"
+name="IOC_POC_RanorexRepository">
+	<codegen
+	classname="IOC_POC_RanorexRepository"
+	namespace="IOC_POC_Ranorex">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f98c6c43-3031-4928-b8df-9e860408dece"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ffe7712e-9506-4076-87f4-3e232e3457f0"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="2fbbb4e3-7ab7-4a84-be9a-0a2b637c10f8"
+		isrooted="True"
+		name="NewTabWorkMicrosoftEdge"
+		refimgid="ba329bac-4988-4eac-9f3b-aaa73fda1668"
+		refpath="/form[@title='New tab - Work - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="37c647ee-715a-4675-89ef-b62d986d7acf"
+			name="View1021"
+			refimgid="1b83c851-f362-4f95-8611-5cae42130fc8"
+			refpath="/form[@title>'Katalon Shop – Katalon Ecommerce']/container[@name>'Katalon Shop – Katalon Ecommerce']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='TopContainerView']/toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+			robustPath="/form[@title>'New tab - Work - Microsoft​']//text[@automationid='view_1021']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'New tab - Work - Microsoft&#8203;']/container[@name&gt;'Katalon Shop &#8211; Katalon Ecommerce']/container[@name='Microsoft Edge']//toolbar[@automationid='view_1000']/?/?/text[@automationid='view_1021']
+			</item>
+			<folder
+			capname="container"
+			id="643bd48b-5f13-438c-8c03-dfa7a80812a1"
+			isrooted="True"
+			name="MicrosoftEdge"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation"
+				capname="container"
+				id="f80b3dad-e712-47f1-b387-022640345f5c"
+				name="NativeViewHost"
+				refimgid="ab685089-6547-453f-906f-283f2574a3d8"
+				refpath="/form[@title>'New tab - Work - Microsoft​']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='View']/text/container[@classname='NativeViewHost']"
+				robustPath="/form[@title>'New tab - Work - Microsoft​']//text[@automationid='view_1053']/container[@classname='NativeViewHost']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Work - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']//container[@classname='SidebarContentsSplitView']//text[@automationid='view_1053']/container[@classname='NativeViewHost']
+				</item>
+				<item
+				addcaps="container,uiautomation"
+				capname="container"
+				id="17ebfa64-0a42-4c83-bb8a-2f692105cf17"
+				name="FrameGrabHandle"
+				refimgid="12c18ec8-1cd0-4473-a2d2-e1475985ef09"
+				refpath="/form[@title>'New tab - Work - Microsoft​']/container[@name='New tab - Microsoft Edge']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='TopContainerView']/tabpagelist/container[@classname='FrameGrabHandle']"
+				robustPath="/form[@title>'New tab - Work - Microsoft​']//container[@classname='FrameGrabHandle']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Work - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']//tabpagelist[@classname='TabStripRegionView']/container[@classname='FrameGrabHandle']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="e8bd4d14-8423-4eaa-8b86-57e92ec9d679"
+				name="View10211"
+				refimgid="d258bf6d-5b96-4368-b74e-905fc4f36a8e"
+				refpath="/form[@title>'New tab - Work - Microsoft​']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='TopContainerView']/toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+				robustPath="/form[@title>'New tab - Work - Microsoft​']//text[@automationid='view_1021']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Work - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']//toolbar[@automationid='view_1000']/?/?/text[@automationid='view_1021']
+				</item>
+				<basepath>
+					/form[@title&gt;'New tab - Work - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'New tab - Work - Microsoft&#8203;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBrSFNhHAbwY8vUcs5lWVDghz6V
+2tRNjUo/5KWLzsuclw9NMbpoVyHLeV1WZOFis5VGWqJEaUSBYRmZu3nSdLPcjs2pLRNMyZBQ0qLs
+6exsYYQP/OF8+D+/930PsVT42s8twbrxnyF6G4JJC8J7erHd2DkRYeo44lxZOqGaOZVA83WBr51C
+kPYjgvTD4JEU+N1GbDN0YhfVirihuxNi241MZ2UxYeq5EYFmFiGaLwjWfgJP+wGBukEE6E0I6jIg
+rJdE5Nun2GttQNqYEpmT5yucVfvJP1Sh6nnwNTPgtU8isP0jAnRW+OsobNH1YyvZB8HrTux88xR7
+LI1IH6vEwc+nkfslV8QAfPX3hcDWaayr7AG3XAef8zr4XuzApge9DGAfHtlN/4cWxJjvINV2AQc+
+HcWxqf16QtA2o/a7PQp2uRGcywPgygfho7BirdICX7kRG1Qk/F90IaRLix2GR9hLXUPKUCmyx48g
+ZzLjB7G5eQoesn6sqrCCfWUYHPkIuIr38Llmw3q5Wbe2ypzv10B+C+l8gp099YjtV0I0WADJ6CEc
+HheDWKO0wf2cBR4XrTQy5EBkveDur3/OvI8O72HH2VCyCZGvVYg1FCPRfAoZ1kxk25JALC+hsEJm
+gVu5A1l5iYYkjWAn1+Q7+0SQuiE6TKtCJClDVPcZCPuykWZOhsS6e5ZgFVELrmXv4Mogg/AoeQPP
+JBU8xbWvnH1C8FJxJVxdgUh9PqJf5UJoyICoLwHpVEwp4SIdGGEVD4BV6kDcjz6Dp6ga7NTb8BLX
+ZTDAiwvR4S+lcxGaE4jSZ2Fft2hWZIxNZ3RCaopeVkj9XkYjy2nE7Xg7DdTQwB07MMFOqT3pl1Xv
+7lheDDeuMsD5SUdKtbkUUmAQKf2EvzewT8oteCXfnPVKqn7MSVTlcYRVed7ximFu3FUsIkUmAVFA
+TbsUDTCIR2Yz2OJaGqhjAI7oJjhJ1fRch3dCFbyFinnvePkxR/nfSM0T9puwCt5ilR2wn74EwE1Q
+5jgb/0U2tJG+SRmNWFmFpt/uOW3wlDTBS3Ifq7Pu/aKBhtXCqm3ObToE8Qe3UugpYk4+RgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="55299283-bf94-42af-9021-29f460c2f2e3"
+		isrooted="True"
+		name="FrpaezIOCPOCRanorex"
+		refpath="/dom[@domain='github.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,summarytag"
+			capname="summarytag"
+			id="a4e09dee-a591-4317-a399-d4ebd6e2877d"
+			name="SummaryTagCode"
+			refimgid="078fe44e-a0c5-4e65-9f84-1e893c7afceb"
+			refpath="/dom[@domain='github.com']//div[#'repo-content-pjax-container']/div/div/div[3]/div[1]/div[2]/span/tag/tag/details/summary[@innertext='    Code']"
+			robustPath="/dom[@domain='github.com']//div[#'repo-content-pjax-container']//summary[@innertext='    Code']"
+			searchtimeout="30000ms">
+				/dom[@domain='github.com']//div[#'repo-content-pjax-container']/div/div/div[3]/div[1]/div[2]/span//summary[@innertext='    Code']
+			</item>
+			<basepath>
+				/dom[@domain='github.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c631ec6c-55fb-4bc1-a9a7-8b5c2ba38bea"
+		isrooted="True"
+		name="KatalonShopKatalonEcommerceWork"
+		refimgid="8f98d76c-8d25-4b5b-bb08-b794034c0e39"
+		refpath="/form[@title='Katalon Shop – Katalon Ecommerce - Work - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="9448bb6f-4d4e-4203-b259-3895897c22f0"
+			name="NativeViewHost"
+			refimgid="ae0077ee-e5e3-402a-8969-afb6ae881166"
+			refpath="/form[@title>'Katalon Shop – Katalon Ecommerce']/container[@name>'Katalon Shop – Katalon Ecommerce']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='View']/text/container[@classname='NativeViewHost']"
+			robustPath="/form[@title>'Katalon Shop – Katalon Ecommerce']//text[@automationid='view_1053']/container[@classname='NativeViewHost']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Katalon Shop &#8211; Katalon Ecommerce']/container[@name&gt;'Katalon Shop &#8211; Katalon Ecommerce']/container[@name='Microsoft Edge']//container[@classname='SidebarContentsSplitView']//text[@automationid='view_1053']/container[@classname='NativeViewHost']
+			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="7aad74b6-96b7-4b43-ae05-99e010eb5276"
+			name="NativeViewHost1"
+			refimgid="000181fd-af4a-4d12-8a17-4f0bb619818c"
+			refpath="/form[@title>'My account – Katalon Shop']/container[@name>'My account – Katalon Shop']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='View']/text/container[@classname='NativeViewHost']"
+			robustPath="/form[@title>'Katalon Shop – Katalon Ecommerce']//text[@automationid='view_1053']/container[@classname='NativeViewHost']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Katalon Shop &#8211; Katalon Ecommerce']/container[@name&gt;'My account &#8211; Katalon Shop']/container[@name='Microsoft Edge']//container[@classname='SidebarContentsSplitView']//text[@automationid='view_1053']/container[@classname='NativeViewHost']
+			</item>
+			<basepath>
+				/form[@title&gt;'Katalon Shop &#8211; Katalon Ecommerce']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBrSFNhHAbwY8vUcs5lWVDghz6V
+2tRNjUo/5KWLzsuclw9NMbpoVyHLeV1WZOFis5VGWqJEaUSBYRmZu3nSdLPcjs2pLRNMyZBQ0qLs
+6exsYYQP/OF8+D+/930PsVT42s8twbrxnyF6G4JJC8J7erHd2DkRYeo44lxZOqGaOZVA83WBr51C
+kPYjgvTD4JEU+N1GbDN0YhfVirihuxNi241MZ2UxYeq5EYFmFiGaLwjWfgJP+wGBukEE6E0I6jIg
+rJdE5Nun2GttQNqYEpmT5yucVfvJP1Sh6nnwNTPgtU8isP0jAnRW+OsobNH1YyvZB8HrTux88xR7
+LI1IH6vEwc+nkfslV8QAfPX3hcDWaayr7AG3XAef8zr4XuzApge9DGAfHtlN/4cWxJjvINV2AQc+
+HcWxqf16QtA2o/a7PQp2uRGcywPgygfho7BirdICX7kRG1Qk/F90IaRLix2GR9hLXUPKUCmyx48g
+ZzLjB7G5eQoesn6sqrCCfWUYHPkIuIr38Llmw3q5Wbe2ypzv10B+C+l8gp099YjtV0I0WADJ6CEc
+HheDWKO0wf2cBR4XrTQy5EBkveDur3/OvI8O72HH2VCyCZGvVYg1FCPRfAoZ1kxk25JALC+hsEJm
+gVu5A1l5iYYkjWAn1+Q7+0SQuiE6TKtCJClDVPcZCPuykWZOhsS6e5ZgFVELrmXv4Mogg/AoeQPP
+JBU8xbWvnH1C8FJxJVxdgUh9PqJf5UJoyICoLwHpVEwp4SIdGGEVD4BV6kDcjz6Dp6ga7NTb8BLX
+ZTDAiwvR4S+lcxGaE4jSZ2Fft2hWZIxNZ3RCaopeVkj9XkYjy2nE7Xg7DdTQwB07MMFOqT3pl1Xv
+7lheDDeuMsD5SUdKtbkUUmAQKf2EvzewT8oteCXfnPVKqn7MSVTlcYRVed7ximFu3FUsIkUmAVFA
+TbsUDTCIR2Yz2OJaGqhjAI7oJjhJ1fRch3dCFbyFinnvePkxR/nfSM0T9puwCt5ilR2wn74EwE1Q
+5jgb/0U2tJG+SRmNWFmFpt/uOW3wlDTBS3Ifq7Pu/aKBhtXCqm3ObToE8Qe3UugpYk4+RgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a24d6970-326f-43a7-b949-b944910b9f21"
+		isrooted="True"
+		name="MyAccountKatalonShopAnd1MorePage"
+		refimgid="b4f9bc98-f434-4fe3-9a0e-3681811705f4"
+		refpath="/form[@title='My account – Katalon Shop and 1 more page - Work - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="20077d52-8502-4e76-8e23-702768d4fd00"
+			name="NativeViewHost"
+			refimgid="b66f5b92-3d6f-4f9c-91e6-39be13aebb46"
+			refpath="/form[@title>'My account – Katalon Shop']/container[@name>'My account – Katalon Shop']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='View']/text/container[@classname='NativeViewHost']"
+			robustPath="/form[@title>'My account – Katalon Shop']//text[@automationid='view_1053']/container[@classname='NativeViewHost']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'My account &#8211; Katalon Shop']/container[@name&gt;'My account &#8211; Katalon Shop']/container[@name='Microsoft Edge']//container[@classname='SidebarContentsSplitView']//text[@automationid='view_1053']/container[@classname='NativeViewHost']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="cad23a5a-bc92-4c3c-9a9a-95fcd50cabde"
+			name="View7"
+			refimgid="4fbc9966-b8b2-4ea9-9d4a-1e33e5106fa2"
+			refpath="/form[@title>'My account – Katalon Shop']/container[@name>'My account – Katalon Shop']/container/container[@classname='GlassBrowserFrameView']/container[@classname='GlassBrowserCaptionButtonContainer']/button[@automationid='view_7']"
+			robustPath="/form[@title>'My account – Katalon Shop']//button[@automationid='view_7']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'My account &#8211; Katalon Shop']/container[@name&gt;'My account &#8211; Katalon Shop']/container[@name='Microsoft Edge']//button[@automationid='view_7']
+			</item>
+			<basepath>
+				/form[@title&gt;'My account &#8211; Katalon Shop']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBrSFNhHAbwY8vUcs5lWVDghz6V
+2tRNjUo/5KWLzsuclw9NMbpoVyHLeV1WZOFis5VGWqJEaUSBYRmZu3nSdLPcjs2pLRNMyZBQ0qLs
+6exsYYQP/OF8+D+/930PsVT42s8twbrxnyF6G4JJC8J7erHd2DkRYeo44lxZOqGaOZVA83WBr51C
+kPYjgvTD4JEU+N1GbDN0YhfVirihuxNi241MZ2UxYeq5EYFmFiGaLwjWfgJP+wGBukEE6E0I6jIg
+rJdE5Nun2GttQNqYEpmT5yucVfvJP1Sh6nnwNTPgtU8isP0jAnRW+OsobNH1YyvZB8HrTux88xR7
+LI1IH6vEwc+nkfslV8QAfPX3hcDWaayr7AG3XAef8zr4XuzApge9DGAfHtlN/4cWxJjvINV2AQc+
+HcWxqf16QtA2o/a7PQp2uRGcywPgygfho7BirdICX7kRG1Qk/F90IaRLix2GR9hLXUPKUCmyx48g
+ZzLjB7G5eQoesn6sqrCCfWUYHPkIuIr38Llmw3q5Wbe2ypzv10B+C+l8gp099YjtV0I0WADJ6CEc
+HheDWKO0wf2cBR4XrTQy5EBkveDur3/OvI8O72HH2VCyCZGvVYg1FCPRfAoZ1kxk25JALC+hsEJm
+gVu5A1l5iYYkjWAn1+Q7+0SQuiE6TKtCJClDVPcZCPuykWZOhsS6e5ZgFVELrmXv4Mogg/AoeQPP
+JBU8xbWvnH1C8FJxJVxdgUh9PqJf5UJoyICoLwHpVEwp4SIdGGEVD4BV6kDcjz6Dp6ga7NTb8BLX
+ZTDAiwvR4S+lcxGaE4jSZ2Fft2hWZIxNZ3RCaopeVkj9XkYjy2nE7Xg7DdTQwB07MMFOqT3pl1Xv
+7lheDDeuMsD5SUdKtbkUUmAQKf2EvzewT8oteCXfnPVKqn7MSVTlcYRVed7ximFu3FUsIkUmAVFA
+TbsUDTCIR2Yz2OJaGqhjAI7oJjhJ1fRch3dCFbyFinnvePkxR/nfSM0T9puwCt5ilR2wn74EwE1Q
+5jgb/0U2tJG+SRmNWFmFpt/uOW3wlDTBS3Ifq7Pu/aKBhtXCqm3ObToE8Qe3UugpYk4+RgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

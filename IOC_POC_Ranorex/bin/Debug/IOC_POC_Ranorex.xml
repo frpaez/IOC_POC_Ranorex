@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IOC_POC_Ranorex</name>
+    </assembly>
+    <members>
+        <member name="T:IOC_POC_Ranorex.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:IOC_POC_Ranorex.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the IOC_POC_RanorexRepository repository.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IOC_POC_Ranorex.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IOC_POC_Ranorex.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepository">
+            <summary>
+            The class representing the IOC_POC_RanorexRepository element repository.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the IOC_POC_RanorexRepository element repository.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.NewTabWorkMicrosoftEdge">
+            <summary>
+            The NewTabWorkMicrosoftEdge folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.FrpaezIOCPOCRanorex">
+            <summary>
+            The FrpaezIOCPOCRanorex folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.KatalonShopKatalonEcommerceWork">
+            <summary>
+            The KatalonShopKatalonEcommerceWork folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.MyAccountKatalonShopAnd1MorePage">
+            <summary>
+            The MyAccountKatalonShopAnd1MorePage folder.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder">
+            <summary>
+            The NewTabWorkMicrosoftEdgeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTabWorkMicrosoftEdge  folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder.View1021">
+            <summary>
+            The View1021 item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder.View1021Info">
+            <summary>
+            The View1021 item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.NewTabWorkMicrosoftEdgeAppFolder.MicrosoftEdge">
+            <summary>
+            The MicrosoftEdge folder.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder">
+            <summary>
+            The MicrosoftEdgeFolder folder.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MicrosoftEdge  folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.NativeViewHost">
+            <summary>
+            The NativeViewHost item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.NativeViewHostInfo">
+            <summary>
+            The NativeViewHost item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.FrameGrabHandle">
+            <summary>
+            The FrameGrabHandle item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.FrameGrabHandleInfo">
+            <summary>
+            The FrameGrabHandle item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.View10211">
+            <summary>
+            The View10211 item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MicrosoftEdgeFolder.View10211Info">
+            <summary>
+            The View10211 item info.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.FrpaezIOCPOCRanorexAppFolder">
+            <summary>
+            The FrpaezIOCPOCRanorexAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.FrpaezIOCPOCRanorexAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrpaezIOCPOCRanorex  folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.FrpaezIOCPOCRanorexAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.FrpaezIOCPOCRanorexAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.FrpaezIOCPOCRanorexAppFolder.SummaryTagCode">
+            <summary>
+            The SummaryTagCode item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.FrpaezIOCPOCRanorexAppFolder.SummaryTagCodeInfo">
+            <summary>
+            The SummaryTagCode item info.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder">
+            <summary>
+            The KatalonShopKatalonEcommerceWorkAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new KatalonShopKatalonEcommerceWork  folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.NativeViewHost">
+            <summary>
+            The NativeViewHost item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.NativeViewHostInfo">
+            <summary>
+            The NativeViewHost item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.NativeViewHost1">
+            <summary>
+            The NativeViewHost1 item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.KatalonShopKatalonEcommerceWorkAppFolder.NativeViewHost1Info">
+            <summary>
+            The NativeViewHost1 item info.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder">
+            <summary>
+            The MyAccountKatalonShopAnd1MorePageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MyAccountKatalonShopAnd1MorePage  folder.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.NativeViewHost">
+            <summary>
+            The NativeViewHost item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.NativeViewHostInfo">
+            <summary>
+            The NativeViewHost item info.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.View7">
+            <summary>
+            The View7 item.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepositoryFolders.MyAccountKatalonShopAnd1MorePageAppFolder.View7Info">
+            <summary>
+            The View7 item info.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:IOC_POC_Ranorex.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the IOC_POC_RanorexRepository repository.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IOC_POC_Ranorex.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IOC_POC_Ranorex.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.OpenBrowser.webPage">
+            <summary>
+            Gets or sets the value of variable webPage.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.OpenBrowser.webPageAccount">
+            <summary>
+            Gets or sets the value of variable webPageAccount.
+            </summary>
+        </member>
+        <member name="T:IOC_POC_Ranorex.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:IOC_POC_Ranorex.Recording1.repo">
+            <summary>
+            Holds an instance of the IOC_POC_RanorexRepository repository.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IOC_POC_Ranorex.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IOC_POC_Ranorex.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IOC_POC_Ranorex.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:IOC_POC_Ranorex.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
