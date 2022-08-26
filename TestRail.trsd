@@ -1,0 +1,98 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "f4e1d715-2c22-4c5d-8760-235431ba0066/7f8b7f37-b9dd-43c8-817c-39ce96b6625f",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/f4e1d715-2c22-4c5d-8760-235431ba0066",
+      "Name": "Master"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P1",
+    "Pid": null,
+    "Name": "IOC POC Demo",
+    "BaseUri": "https://iocpocdemo01.testrail.io/",
+    "ProjectSuiteMode": 1,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/f4e1d715-2c22-4c5d-8760-235431ba0066",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "Master"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "f4e1d715-2c22-4c5d-8760-235431ba0066/7f8b7f37-b9dd-43c8-817c-39ce96b6625f",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/f4e1d715-2c22-4c5d-8760-235431ba0066",
+        "Name": "Master"
+      },
+      "Tr": {
+        "Id": "S1",
+        "Pid": "P1",
+        "Name": "Master"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": {
+        "Id": "7f8b7f37-b9dd-43c8-817c-39ce96b6625f/c8440e48-2178-4ca3-8f30-d6a2bc8e60fd",
+        "Pid": "f4e1d715-2c22-4c5d-8760-235431ba0066/7f8b7f37-b9dd-43c8-817c-39ce96b6625f",
+        "Name": "Test Cases"
+      },
+      "Tr": {
+        "Id": "G1",
+        "Pid": "S1",
+        "Name": "Test Cases"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7f8b7f37-b9dd-43c8-817c-39ce96b6625f/01ade6c8-ae18-40ca-9162-e1e04a1f1c74",
+        "Pid": "f4e1d715-2c22-4c5d-8760-235431ba0066/7f8b7f37-b9dd-43c8-817c-39ce96b6625f",
+        "Name": "Master"
+      },
+      "Tr": {
+        "Id": "G2",
+        "Pid": "S1",
+        "Name": "Master"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "7f8b7f37-b9dd-43c8-817c-39ce96b6625f/e412c368-2ea7-4273-a6f2-5bb1cd6fdf4b",
+        "Pid": "7f8b7f37-b9dd-43c8-817c-39ce96b6625f/01ade6c8-ae18-40ca-9162-e1e04a1f1c74",
+        "Name": "TC_LOGIN_001"
+      },
+      "Tr": {
+        "Id": "C4",
+        "Pid": "G2",
+        "Name": "TC_LOGIN_001"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7f8b7f37-b9dd-43c8-817c-39ce96b6625f/e2c4a528-2803-428a-b850-f35a319b7a49",
+        "Pid": "7f8b7f37-b9dd-43c8-817c-39ce96b6625f/01ade6c8-ae18-40ca-9162-e1e04a1f1c74",
+        "Name": "TC_LOGIN_001"
+      },
+      "Tr": {
+        "Id": "C5",
+        "Pid": "G2",
+        "Name": "TC_LOGIN_001"
+      }
+    }
+  ]
+}
