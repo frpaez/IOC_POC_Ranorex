@@ -12,6 +12,155 @@ name="MasterRepository">
 	name="Root"
 	searchtimeout="0ms"
 	usecache="False">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="70fd7db5-1d2b-4905-a7b7-da8304ac7d53"
+		isrooted="True"
+		name="NewTab"
+		refpath="/dom[@domain='newtab']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='newtab']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="eede0799-354d-466a-9240-9b38df96abde"
+		isrooted="True"
+		name="NewTabGoogleChrome"
+		refpath="/form[@title='New Tab - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="96526eaf-0870-4b9d-acc9-6f0b6fc43a50"
+			name="AddressAndSearchBar"
+			refimgid="63bbe4de-f503-4f8e-99ba-2688af4118f2"
+			refpath="/form[@title='New Tab - Google Chrome']/container/container/container/container[2]/container[1]/toolbar[1]/container[@accessiblerole='Grouping']/text[@accessiblename='Address and search bar']"
+			robustPath="/form[@title='New Tab - Google Chrome']//text[@accessiblename='Address and search bar']"
+			searchtimeout="30000ms">
+				/form[@title='New Tab - Google Chrome']/container[@accessiblename&gt;'New Tab - Google Chrome -']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']
+			</item>
+			<basepath>
+				/form[@title='New Tab - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAISSURBVDhPtY89TFNRGIbv4GQiiQpFRYToxICJ
+g4YKLbSlyG0L9Q8SQfxBHYwEWJRCQoKaEKQm2lTRKLaFCo1TiZMawRAXo5GBBAe5F5kMgyAXOmBC
+fTnf4Z5bQombX/Lk/p3nuedI/2VsOZku9cwJqKecUL0OKNU2fK52zOmf/z0zZ2Vw+XSFEVC9dihV
+NiieUkzIZQv60vRRa2QYAZI3BtguKKC4rJh2WaArqXlTWYJvJ8tZoDIVYM/iCGIHitsKRbbg6dHD
+cV2VpO2FefLBoWv45Lbgu5dJTJ7u8kHTNIPZaBF+vjJjPn4cK+9K8Ge0OLWL/JdXQXQ2VmDSY8XM
+nQ74Ysuoup/guP0JzP/W8PeLE5jQ+erAscIdRTyQF70CwVunmf+RRA8TSXb1rqP9GNED5Sxgx9iz
+Ix944EC0EQKn/xwPkEwIWb6XQF8sDt/Dfnx8fZ0HlsYtSzywf/AyBLkMCog/k1jnn+TiZgbvFgzx
+QHagdm7fwEXkDFzi0D2dWQSE0NzzGE3dQbQ9eG684wGavUwi9kQucLIjDRieGkNweH3bRDKZREvP
+I9zaKmAK1i6QJDDpiIXE6moSU8osWnufpAdoTOEGZIXPIzNcz6+7Q/Uo7WszFtO0B/q3PoKYjBvW
+EQrsCtXxgD1UYyxuD7ww7omW7sCirqXPtkM7zRk3HeO/3hcvR24XxDaKKVmS1gCHfuBPsrjZuAAA
+AABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9cf2d459-235f-4f93-822a-eed79436dc7b"
+		isrooted="True"
+		name="CURAHealthcareService"
+		refpath="/dom[@domain='katalon-demo-cura.herokuapp.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="332c6361-a65d-4206-ab74-056278a6cb76"
+			name="BtnMakeAppointment"
+			refimgid="d86f8384-23bb-4164-8c11-7ac49e893588"
+			refpath="/dom[@domain='katalon-demo-cura.herokuapp.com']//a[#'btn-make-appointment']"
+			robustPath="/dom[@domain='katalon-demo-cura.herokuapp.com']//a[#'btn-make-appointment']"
+			searchtimeout="30000ms">
+				/dom[@domain='katalon-demo-cura.herokuapp.com']//a[#'btn-make-appointment']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e7d88177-ae5a-4459-919d-b34ed4adc9e3"
+			name="TxtUsername"
+			refimgid="e5fec32d-731b-4c94-b3ca-6da61a19df52"
+			refpath="/dom[@domain='katalon-demo-cura.herokuapp.com']//input[#'txt-username']"
+			robustPath="/dom[@domain='katalon-demo-cura.herokuapp.com']//input[#'txt-username']"
+			searchtimeout="30000ms">
+				/dom[@domain='katalon-demo-cura.herokuapp.com']//input[#'txt-username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9f5abad5-110f-46b1-8630-501daa68c16a"
+			name="TxtPassword"
+			refimgid="4a64a43a-8a27-4e8a-82c6-6cbb7937f374"
+			refpath="/dom[@domain='katalon-demo-cura.herokuapp.com']//input[#'txt-password']"
+			robustPath="/dom[@domain='katalon-demo-cura.herokuapp.com']//input[#'txt-password']"
+			searchtimeout="30000ms">
+				/dom[@domain='katalon-demo-cura.herokuapp.com']//input[#'txt-password']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="86080992-e0f3-4032-a522-a6a5bac2db38"
+			name="BtnLogin"
+			refimgid="973c4d79-137e-4cac-8f7c-9c5602ac01a3"
+			refpath="/dom[@domain='katalon-demo-cura.herokuapp.com']//button[#'btn-login']"
+			robustPath="/dom[@domain='katalon-demo-cura.herokuapp.com']//button[#'btn-login']"
+			searchtimeout="30000ms">
+				/dom[@domain='katalon-demo-cura.herokuapp.com']//button[#'btn-login']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="d97ea00d-5d73-4469-a178-4060f8501cbc"
+			name="LoginFailedPleaseEnsureTheUsername"
+			refimgid="5679c4dd-29ef-499f-be46-108506a5cea4"
+			refpath="/dom[@domain='katalon-demo-cura.herokuapp.com']//section[#'login']/div/div/div[1]/p[@innertext>'Login failed! Please ensure']"
+			robustPath="/dom[@domain='katalon-demo-cura.herokuapp.com']//section[#'login']//p[@innertext>'Login failed! Please ensure']"
+			searchtimeout="30000ms">
+				/dom[@domain='katalon-demo-cura.herokuapp.com']//section[#'login']/div/div/div[1]/p[@innertext&gt;'Login failed! Please ensure']
+			</item>
+			<basepath>
+				/dom[@domain='katalon-demo-cura.herokuapp.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

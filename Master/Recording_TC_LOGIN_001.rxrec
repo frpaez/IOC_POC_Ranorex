@@ -28,23 +28,16 @@ mode="Global">
 	</recorditems>
 	<repository
 	id="3f32627d-770d-40d8-8be5-180c40daba42"
-	name="NewRepository">
+	name="MasterRepository"
+	relativepath="MasterRepository.rxrep">
 		<codegen
-		classname="NewRepository"
-		namespace="MyTestProject">
+		classname="MasterRepository"
+		namespace="Master">
 		</codegen>
 		<rootfolder
-		capname="host"
 		id="8b295ce9-db58-474e-a148-3a407eaa72fc"
-		isrooted="True"
-		name="Root"
-		searchtimeout="0ms"
-		usecache="False">
-			<basepath>
-			</basepath>
+		name="_rootdummy_">
 		</rootfolder>
-		<variables>
-		</variables>
 	</repository>
 	<usercodefile
 	lang="CSharp">

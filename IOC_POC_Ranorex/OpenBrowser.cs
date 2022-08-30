@@ -67,16 +67,14 @@ namespace IOC_POC_Ranorex
             set { _webPage = value; }
         }
 
-        string _webPageAccount;
-
         /// <summary>
         /// Gets or sets the value of variable webPageAccount.
         /// </summary>
         [TestVariable("74a3ea1c-9ae0-4cb1-b3f5-91bf8f3d4f4d")]
         public string webPageAccount
         {
-            get { return _webPageAccount; }
-            set { _webPageAccount = value; }
+            get { return repo.webPageAccount; }
+            set { repo.webPageAccount = value; }
         }
 
 #endregion
@@ -105,8 +103,8 @@ namespace IOC_POC_Ranorex
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $webPageAccount with browser 'Edge' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser(webPageAccount, "Edge", "", false, false, false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.ranorex.com' with browser 'Edge' in maximized mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://www.ranorex.com", "Edge", "", false, true, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

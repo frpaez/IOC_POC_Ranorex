@@ -280,5 +280,10 @@ RU5ErkJggg==
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="bcc52106-83d1-4a60-b82f-38d042c1d878"
+		name="webPageAccount">
+			Blank
+		</var>
 	</variables>
 </repository>

@@ -58,6 +58,11 @@
             Gets the singleton class instance representing the IOC_POC_RanorexRepository element repository.
             </summary>
         </member>
+        <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.webPageAccount">
+            <summary>
+            Gets or sets the value of variable webPageAccount.
+            </summary>
+        </member>
         <member name="P:IOC_POC_Ranorex.IOC_POC_RanorexRepository.SelfInfo">
             <summary>
             The Self item info.
