@@ -57,6 +57,18 @@ namespace IOC_POC_Ranorex
 
 #region Variables
 
+        string _webPageAccount = "Blank";
+
+        /// <summary>
+        /// Gets or sets the value of variable webPageAccount.
+        /// </summary>
+        [TestVariable("bcc52106-83d1-4a60-b82f-38d042c1d878")]
+        public string webPageAccount
+        {
+            get { return _webPageAccount; }
+            set { _webPageAccount = value; }
+        }
+
 #endregion
 
         /// <summary>

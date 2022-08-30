@@ -27,6 +27,9 @@ namespace Master
     public partial class MasterRepository : RepoGenBaseFolder
     {
         static MasterRepository instance = new MasterRepository();
+        MasterRepositoryFolders.NewTabAppFolder _newtab;
+        MasterRepositoryFolders.NewTabGoogleChromeAppFolder _newtabgooglechrome;
+        MasterRepositoryFolders.CURAHealthcareServiceAppFolder _curahealthcareservice;
 
         /// <summary>
         /// Gets the singleton class instance representing the MasterRepository element repository.
@@ -43,6 +46,9 @@ namespace Master
         public MasterRepository() 
             : base("MasterRepository", "/", null, 0, false, "8b295ce9-db58-474e-a148-3a407eaa72fc", ".\\RepositoryImages\\MasterRepository8b295ce9.rximgres")
         {
+            _newtab = new MasterRepositoryFolders.NewTabAppFolder(this);
+            _newtabgooglechrome = new MasterRepositoryFolders.NewTabGoogleChromeAppFolder(this);
+            _curahealthcareservice = new MasterRepositoryFolders.CURAHealthcareServiceAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +66,33 @@ namespace Master
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The NewTab folder.
+        /// </summary>
+        [RepositoryFolder("70fd7db5-1d2b-4905-a7b7-da8304ac7d53")]
+        public virtual MasterRepositoryFolders.NewTabAppFolder NewTab
+        {
+            get { return _newtab; }
+        }
+
+        /// <summary>
+        /// The NewTabGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("eede0799-354d-466a-9240-9b38df96abde")]
+        public virtual MasterRepositoryFolders.NewTabGoogleChromeAppFolder NewTabGoogleChrome
+        {
+            get { return _newtabgooglechrome; }
+        }
+
+        /// <summary>
+        /// The CURAHealthcareService folder.
+        /// </summary>
+        [RepositoryFolder("9cf2d459-235f-4f93-822a-eed79436dc7b")]
+        public virtual MasterRepositoryFolders.CURAHealthcareServiceAppFolder CURAHealthcareService
+        {
+            get { return _curahealthcareservice; }
+        }
     }
 
     /// <summary>
@@ -68,6 +101,282 @@ namespace Master
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class MasterRepositoryFolders
     {
+        /// <summary>
+        /// The NewTabAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("70fd7db5-1d2b-4905-a7b7-da8304ac7d53")]
+        public partial class NewTabAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new NewTab  folder.
+            /// </summary>
+            public NewTabAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("NewTab", "/dom[@domain='newtab']", parentFolder, 30000, null, false, "70fd7db5-1d2b-4905-a7b7-da8304ac7d53", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("70fd7db5-1d2b-4905-a7b7-da8304ac7d53")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("70fd7db5-1d2b-4905-a7b7-da8304ac7d53")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The NewTabGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("eede0799-354d-466a-9240-9b38df96abde")]
+        public partial class NewTabGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _addressandsearchbarInfo;
+
+            /// <summary>
+            /// Creates a new NewTabGoogleChrome  folder.
+            /// </summary>
+            public NewTabGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("NewTabGoogleChrome", "/form[@title='New Tab - Google Chrome']", parentFolder, 30000, null, true, "eede0799-354d-466a-9240-9b38df96abde", "")
+            {
+                _addressandsearchbarInfo = new RepoItemInfo(this, "AddressAndSearchBar", "container[@accessiblename>'New Tab - Google Chrome -']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']", ".//text[@accessiblename='Address and search bar']", 30000, null, "96526eaf-0870-4b9d-acc9-6f0b6fc43a50");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("eede0799-354d-466a-9240-9b38df96abde")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("eede0799-354d-466a-9240-9b38df96abde")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddressAndSearchBar item.
+            /// </summary>
+            [RepositoryItem("96526eaf-0870-4b9d-acc9-6f0b6fc43a50")]
+            public virtual Ranorex.Text AddressAndSearchBar
+            {
+                get
+                {
+                    return _addressandsearchbarInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddressAndSearchBar item info.
+            /// </summary>
+            [RepositoryItemInfo("96526eaf-0870-4b9d-acc9-6f0b6fc43a50")]
+            public virtual RepoItemInfo AddressAndSearchBarInfo
+            {
+                get
+                {
+                    return _addressandsearchbarInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CURAHealthcareServiceAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("9cf2d459-235f-4f93-822a-eed79436dc7b")]
+        public partial class CURAHealthcareServiceAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _btnmakeappointmentInfo;
+            RepoItemInfo _txtusernameInfo;
+            RepoItemInfo _txtpasswordInfo;
+            RepoItemInfo _btnloginInfo;
+            RepoItemInfo _loginfailedpleaseensuretheusernameInfo;
+
+            /// <summary>
+            /// Creates a new CURAHealthcareService  folder.
+            /// </summary>
+            public CURAHealthcareServiceAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CURAHealthcareService", "/dom[@domain='katalon-demo-cura.herokuapp.com']", parentFolder, 30000, null, false, "9cf2d459-235f-4f93-822a-eed79436dc7b", "")
+            {
+                _btnmakeappointmentInfo = new RepoItemInfo(this, "BtnMakeAppointment", ".//a[#'btn-make-appointment']", ".//a[#'btn-make-appointment']", 30000, null, "332c6361-a65d-4206-ab74-056278a6cb76");
+                _txtusernameInfo = new RepoItemInfo(this, "TxtUsername", ".//input[#'txt-username']", ".//input[#'txt-username']", 30000, null, "e7d88177-ae5a-4459-919d-b34ed4adc9e3");
+                _txtpasswordInfo = new RepoItemInfo(this, "TxtPassword", ".//input[#'txt-password']", ".//input[#'txt-password']", 30000, null, "9f5abad5-110f-46b1-8630-501daa68c16a");
+                _btnloginInfo = new RepoItemInfo(this, "BtnLogin", ".//button[#'btn-login']", ".//button[#'btn-login']", 30000, null, "86080992-e0f3-4032-a522-a6a5bac2db38");
+                _loginfailedpleaseensuretheusernameInfo = new RepoItemInfo(this, "LoginFailedPleaseEnsureTheUsername", ".//section[#'login']/div/div/div[1]/p[@innertext>'Login failed! Please ensure']", ".//section[#'login']//p[@innertext>'Login failed! Please ensure']", 30000, null, "d97ea00d-5d73-4469-a178-4060f8501cbc");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("9cf2d459-235f-4f93-822a-eed79436dc7b")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("9cf2d459-235f-4f93-822a-eed79436dc7b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnMakeAppointment item.
+            /// </summary>
+            [RepositoryItem("332c6361-a65d-4206-ab74-056278a6cb76")]
+            public virtual Ranorex.ATag BtnMakeAppointment
+            {
+                get
+                {
+                    return _btnmakeappointmentInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnMakeAppointment item info.
+            /// </summary>
+            [RepositoryItemInfo("332c6361-a65d-4206-ab74-056278a6cb76")]
+            public virtual RepoItemInfo BtnMakeAppointmentInfo
+            {
+                get
+                {
+                    return _btnmakeappointmentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtUsername item.
+            /// </summary>
+            [RepositoryItem("e7d88177-ae5a-4459-919d-b34ed4adc9e3")]
+            public virtual Ranorex.InputTag TxtUsername
+            {
+                get
+                {
+                    return _txtusernameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtUsername item info.
+            /// </summary>
+            [RepositoryItemInfo("e7d88177-ae5a-4459-919d-b34ed4adc9e3")]
+            public virtual RepoItemInfo TxtUsernameInfo
+            {
+                get
+                {
+                    return _txtusernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtPassword item.
+            /// </summary>
+            [RepositoryItem("9f5abad5-110f-46b1-8630-501daa68c16a")]
+            public virtual Ranorex.InputTag TxtPassword
+            {
+                get
+                {
+                    return _txtpasswordInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtPassword item info.
+            /// </summary>
+            [RepositoryItemInfo("9f5abad5-110f-46b1-8630-501daa68c16a")]
+            public virtual RepoItemInfo TxtPasswordInfo
+            {
+                get
+                {
+                    return _txtpasswordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnLogin item.
+            /// </summary>
+            [RepositoryItem("86080992-e0f3-4032-a522-a6a5bac2db38")]
+            public virtual Ranorex.ButtonTag BtnLogin
+            {
+                get
+                {
+                    return _btnloginInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnLogin item info.
+            /// </summary>
+            [RepositoryItemInfo("86080992-e0f3-4032-a522-a6a5bac2db38")]
+            public virtual RepoItemInfo BtnLoginInfo
+            {
+                get
+                {
+                    return _btnloginInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LoginFailedPleaseEnsureTheUsername item.
+            /// </summary>
+            [RepositoryItem("d97ea00d-5d73-4469-a178-4060f8501cbc")]
+            public virtual Ranorex.PTag LoginFailedPleaseEnsureTheUsername
+            {
+                get
+                {
+                    return _loginfailedpleaseensuretheusernameInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LoginFailedPleaseEnsureTheUsername item info.
+            /// </summary>
+            [RepositoryItemInfo("d97ea00d-5d73-4469-a178-4060f8501cbc")]
+            public virtual RepoItemInfo LoginFailedPleaseEnsureTheUsernameInfo
+            {
+                get
+                {
+                    return _loginfailedpleaseensuretheusernameInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

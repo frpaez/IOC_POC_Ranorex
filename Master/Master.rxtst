@@ -12,6 +12,12 @@
 			ref="51432f7f-52c7-44b1-b6d4-3bf5850702d6"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="347b8b22-04db-4872-b95c-3825b1daab19"
+			name="LoginFailed"
+			ref="2355019d-e925-4e99-a639-54f1fb726a50"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="5178d953-453e-4632-b6a9-b5db720bf5b8"
 			name="Master"
@@ -51,6 +57,10 @@
 			id="c8440e48-2178-4ca3-8f30-d6a2bc8e60fd"
 			name="Test_Cases">
 			</smartfoldernode>
+			<testcase
+			id="c943fa14-31ff-42d4-aa5f-8a0f50139258"
+			name="TC_LOGIN_Failed">
+			</testcase>
 			<setup
 			id="ce671a70-24f7-43a9-ab60-0b872b3c81a2"
 			name="setup">
@@ -106,6 +116,14 @@
 						id="e2c4a528-2803-428a-b850-f35a319b7a49"
 						name="TC_LOGIN_2">
 						</testcase>
+						<testcase
+						id="c943fa14-31ff-42d4-aa5f-8a0f50139258"
+						name="TC_LOGIN_Failed">
+							<testmodule
+							id="347b8b22-04db-4872-b95c-3825b1daab19"
+							name="LoginFailed">
+							</testmodule>
+						</testcase>
 					</smartfoldernode>
 				</testcase>
 			</testsuite>
@@ -120,5 +138,8 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			IOC_POC_Ranorex.exe
+		</reference>
 	</references>
 </testsuitedoc>

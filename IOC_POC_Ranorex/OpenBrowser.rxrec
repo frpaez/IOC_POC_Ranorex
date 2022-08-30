@@ -46,15 +46,11 @@ mode="Desktop">
 		incognito="False"
 		instrument="True"
 		killexisting="False"
-		maximized="False"
+		maximized="True"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="Url"
-				variable="webPageAccount">
-				</binding>
 			</bindings>
 			<url>
 				http://www.ranorex.com

@@ -8,3 +8,13 @@ C:\Users\cromansantillan\git\IOC_POC_Ranorex\IOC_POC_Ranorex\bin\Debug\Ranorex.C
 C:\Users\cromansantillan\git\IOC_POC_Ranorex\IOC_POC_Ranorex\obj\x86\Debug\IOC_POC_Ranorex.csprojResolveAssemblyReference.cache
 C:\Users\cromansantillan\git\IOC_POC_Ranorex\IOC_POC_Ranorex\obj\x86\Debug\IOC_POC_Ranorex.exe
 C:\Users\cromansantillan\git\IOC_POC_Ranorex\IOC_POC_Ranorex\obj\x86\Debug\IOC_POC_Ranorex.pdb
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\IOC_POC_Ranorex.rxtmg
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\IOC_POC_Ranorex.rxtst
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\IOC_POC_Ranorex.exe.config
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\IOC_POC_Ranorex.xml
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\IOC_POC_Ranorex.exe
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\IOC_POC_Ranorex.pdb
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\obj\x86\Debug\IOC_POC_Ranorex.csprojResolveAssemblyReference.cache
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\obj\x86\Debug\IOC_POC_Ranorex.exe
+C:\Users\frpaez\Documents\IOC\Test3\IOC_POC_Ranorex\obj\x86\Debug\IOC_POC_Ranorex.pdb
